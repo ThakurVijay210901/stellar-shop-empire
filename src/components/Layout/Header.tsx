@@ -49,9 +49,9 @@ const Header = () => {
           <Link to="/shop" className="text-gray-700 hover:text-shop-purple">
             Shop
           </Link>
-          <Link to="/categories" className="text-gray-700 hover:text-shop-purple">
+          {/* <Link to="/categories" className="text-gray-700 hover:text-shop-purple">
             Categories
-          </Link>
+          </Link> */}
           {isAuthenticated && user?.role === 'admin' && (
             <Link to="/admin" className="text-gray-700 hover:text-shop-purple">
               Admin
@@ -117,20 +117,7 @@ const Header = () => {
                           <User size={18} />
                           <span>My Account</span>
                         </Link>
-                        <Link 
-                          to="/orders" 
-                          className="flex items-center space-x-2 p-2 rounded-md hover:bg-secondary w-full"
-                        >
-                          <ShoppingBag size={18} />
-                          <span>My Orders</span>
-                        </Link>
-                        <Link 
-                          to="/wishlist" 
-                          className="flex items-center space-x-2 p-2 rounded-md hover:bg-secondary w-full"
-                        >
-                          <Heart size={18} />
-                          <span>Wishlist</span>
-                        </Link>
+                       
                         <button 
                           onClick={logout}
                           className="flex items-center space-x-2 p-2 rounded-md hover:bg-secondary w-full text-destructive"

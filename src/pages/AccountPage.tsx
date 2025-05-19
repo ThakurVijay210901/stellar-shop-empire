@@ -69,26 +69,7 @@ const AccountPage = () => {
                   <User size={20} />
                   <span>Account Overview</span>
                 </Link>
-                <Link to="/orders" className="flex items-center space-x-2 p-2 rounded-md hover:bg-gray-100 transition-colors w-full">
-                  <ShoppingBag size={20} />
-                  <span>Orders</span>
-                </Link>
-                <Link to="/wishlist" className="flex items-center space-x-2 p-2 rounded-md hover:bg-gray-100 transition-colors w-full">
-                  <Heart size={20} />
-                  <span>Wishlist</span>
-                </Link>
-                <Link to="/addresses" className="flex items-center space-x-2 p-2 rounded-md hover:bg-gray-100 transition-colors w-full">
-                  <MapPin size={20} />
-                  <span>Addresses</span>
-                </Link>
-                <Link to="/payment-methods" className="flex items-center space-x-2 p-2 rounded-md hover:bg-gray-100 transition-colors w-full">
-                  <CreditCard size={20} />
-                  <span>Payment Methods</span>
-                </Link>
-                <Link to="/account-settings" className="flex items-center space-x-2 p-2 rounded-md hover:bg-gray-100 transition-colors w-full">
-                  <Settings size={20} />
-                  <span>Account Settings</span>
-                </Link>
+                
                 <button 
                   onClick={logout}
                   className="flex items-center space-x-2 p-2 rounded-md hover:bg-gray-100 transition-colors w-full text-red-500"

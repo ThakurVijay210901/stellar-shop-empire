@@ -27,11 +27,6 @@ const Hero = () => {
                   <ArrowRight size={18} className="ml-2" />
                 </button>
               </Link>
-              <Link to="/categories">
-                <button className="btn-secondary">
-                  Browse Categories
-                </button>
-              </Link>
             </div>
           </motion.div>
           

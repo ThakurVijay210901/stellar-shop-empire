@@ -37,37 +37,8 @@ const Footer = () => {
               <li>
                 <Link to="/shop" className="text-gray-300 hover:text-shop-purple transition-colors">Shop</Link>
               </li>
-              <li>
-                <Link to="/categories" className="text-gray-300 hover:text-shop-purple transition-colors">Categories</Link>
-              </li>
-              <li>
-                <Link to="/about" className="text-gray-300 hover:text-shop-purple transition-colors">About Us</Link>
-              </li>
-              <li>
-                <Link to="/contact" className="text-gray-300 hover:text-shop-purple transition-colors">Contact</Link>
-              </li>
             </ul>
           </div>
-          
-          {/* Customer Service */}
-          <div>
-            <h3 className="text-xl font-bold mb-4">Customer Service</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link to="/faq" className="text-gray-300 hover:text-shop-purple transition-colors">FAQ</Link>
-              </li>
-              <li>
-                <Link to="/shipping" className="text-gray-300 hover:text-shop-purple transition-colors">Shipping & Returns</Link>
-              </li>
-              <li>
-                <Link to="/terms" className="text-gray-300 hover:text-shop-purple transition-colors">Terms & Conditions</Link>
-              </li>
-              <li>
-                <Link to="/privacy" className="text-gray-300 hover:text-shop-purple transition-colors">Privacy Policy</Link>
-              </li>
-            </ul>
-          </div>
-          
           {/* Contact */}
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
