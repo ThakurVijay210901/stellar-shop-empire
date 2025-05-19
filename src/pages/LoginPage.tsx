@@ -80,7 +80,7 @@ const LoginPage = () => {
                 id="email" 
                 name="email"
                 type="email" 
-                placeholder="your@email.com" 
+                placeholder="your@email.com"  
                 value={formData.email}
                 onChange={handleInputChange}
                 required
